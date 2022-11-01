@@ -1,4 +1,3 @@
-# Deep Vision AI assignment
 # Word Sense Disambiguation
 ### "Replicating" the research paper and understanding the key features
 
@@ -17,13 +16,13 @@ For the problem of the reviews dataset where the company might need the context 
 GlossBERT(Sent-CLS-WS) We use context gloss pairs with weak supervision as input. We take the final hidden state of the first token [CLS] and add a classification layer (label ∈ {yes, no}), which weakly highlights the target word by the weak supervision.
 Like : 
 
-![alt text](https://github.com/arulpraveent/NLP_Task/blob/Rupesh_Malla/Screenshot%202022-10-30%20at%207.54.33%20PM.png)
+![alt text](https://github.com/MallaRupesh/wsd_gloss_bert/blob/main/Screenshot%202022-10-30%20at%207.54.33%20PM.png)
 
 
 ## The approximate pipeline of the entire notebook
 
 
-![alt text](https://github.com/arulpraveent/NLP_Task/blob/Rupesh_Malla/Screenshot%202022-10-30%20at%208.13.58%20PM.png)
+![alt text](https://github.com/MallaRupesh/wsd_gloss_bert/blob/main/Screenshot%202022-10-30%20at%208.13.58%20PM.png)
 
 ## Improvements that can be made in my submission: 
 1. The use of more data for training would definitely improve the performance where I have used only 1000 and later 10000 data points due to lack of GPU power in kaggle kernel after my Google Collab’s free credit GPU expired
@@ -36,6 +35,6 @@ Like :
 
 Here with different meanings of the word " Play" my model understands the meaning in all the instances and shows the results accurately
 
-![alt text](https://github.com/arulpraveent/NLP_Task/blob/Rupesh_Malla/Screenshot%202022-10-30%20at%208.03.30%20PM.png)
+![alt text](https://github.com/MallaRupesh/wsd_gloss_bert/blob/main/Screenshot%202022-10-30%20at%208.03.30%20PM.png)
 
 
