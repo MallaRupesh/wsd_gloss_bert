@@ -22,7 +22,7 @@ Like :
 ## The approximate pipeline of the entire notebook
 
 
-![alt text](https://github.com/MallaRupesh/wsd_gloss_bert/blob/main/Screenshot%202022-10-30%20at%208.13.58%20PM.png)
+![alt text](https://github.com/MallaRupesh/wsd_gloss_bert/blob/main/pipelinee.png)
 
 ## Improvements that can be made in my submission: 
 1. The use of more data for training would definitely improve the performance where I have used only 1000 and later 10000 data points due to lack of GPU power in kaggle kernel after my Google Collab’s free credit GPU expired
