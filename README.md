@@ -24,7 +24,7 @@ Like :
 
 ![alt text](https://github.com/MallaRupesh/wsd_gloss_bert/blob/main/pipelinee.png)
 
-## Improvements that can be made in my submission: 
+## Improvements that can be made in my repo: 
 1. The use of more data for training would definitely improve the performance where I have used only 1000 and later 10000 data points due to lack of GPU power in kaggle kernel after my Google Collab’s free credit GPU expired
 2. Incorporating other recently released models like Roberta and other newer models into modeling 
 3. Use of additional layers/models on top of the core BERT-based models 
